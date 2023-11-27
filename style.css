@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Playfair+Display:wght@400;500;700;900&family=Roboto:wght@300;400;700&display=swap');
+
+html body {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.2em;
+    color: black;
+
+}
+
+#testa {
+
+    display: flex;
+    justify-content: center;
+    margin: 25px;
+    position: fixed;
+    font-size: 0.9em;
+    font-weight: 400;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    background-color: #ffc017;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /* right: 0;
+    left: 0;
+    top: 0;   */
+    align-items: baseline;
+    gap: 100px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    display: inline;
+    padding: 0;
+    margin: 10px;
+
+}
+
+#logo {
+    margin: 25px;
+    cursor: pointer;
+
+}
+
+#bottone {
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 45px;
+    height: 40%;
+    width: 110%;
+
+    text-align: center;
+    align-items: baseline;
+
+
+}
+
+#riquadro {
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: center;
+    background-color: #ffc017;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+h1 {
+    display: flex;
+    font-weight: 700;
+    font-size: 4em;
+    color: black;
+    margin-top: 10vh;
+    padding-left: 20px;
+
+
+}
+
+#riquadro div p {
+    font-weight: 400;
+    font-size: 1.4em;
+    color: black;
+    padding-left: 20px;
+}
+
+#bottone2 {
+    display: flex;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 35px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    align-items: baseline;
+    padding-left: 20px;
+}
+
+#animazioni {
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid transparent;
+    padding-left: 90px;
+    padding-top: 60px;
+    padding-right: 90px;
+    width: 50%;
+
+}
+
+.trends-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: black;
+
+}
+
+.trend {
+    width: calc(33.33% - 20px);
+    /* Larghezza del 33.33% meno il margine tra i trend */
+    margin: 10px;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    /* Allineamento verticale */
+    font-size: 0.5em;
+}
+
+.numero {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Colore di sfondo trasparente */
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.descrizione {
+    text-align: center;
+    flex: 1;
+    /* Flessibilità per far espandere il contenuto */
+    display: flex;
+    flex-direction: column;
+    /* Allineamento verticale */
+    align-items: center;
+    /* Allineamento orizzontale al centro */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    max-height: 50px;
+    /* Altezza massima dell'immagine */
+    margin-right: 0;
+    /* Rimuove il margine destro per posizionare l'immagine a fianco */
+}
+
+h4 {
+    /* font-size: 16px; Imposta la dimensione del testo di h4 */
+    font-weight: bold;
+    /* Imposta il testo di h4 in grassetto */
+    margin: 0;
+    /* Rimuove il margine predefinito */
+}
+
+h2 {
+    font-weight: bold;
+    /* Imposta il testo di h2 in grassetto */
+}
+
+p {
+    opacity: 0.7;
+    /* Rende il paragrafo semitrasparente */
+    /* Imposta la dimensione del testo di p */
+}
+
+.bordo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    /* Colore nero con trasparenza del 50% */
+}
+.wall {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    font-size: 0.9em; /* Imposta la grandezza del testo per l'intera sezione */
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    border: 1px solid #ddd; /* Aggiungi un bordo per separare le card */
+  }
+
+  .content {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .avatar-title {
+    margin-bottom: 10px;
+  }
+
+  .avatar-title img {
+    margin-right: 10px;
+    border-radius: 50%; /* Rendi l'immagine dell'avatar rotonda */
+  }
+
+  img {
+    max-width: 300px;
+    height: auto;
+  }
+
+  .avatar-title img {
+    margin-right: 10px;
+    border-radius: 50%; /* Rendi l'immagine dell'avatar rotonda */
+  }
+
+ 
+
+  
